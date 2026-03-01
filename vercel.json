@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "NEXTAUTH_SECRET": "@NEXTAUTH_SECRET",
+    "NEXTAUTH_URL": "@NEXTAUTH_URL"
+  },
+  "envDescription": {
+    "NEXTAUTH_SECRET": "Secret key for NextAuth - generate a random string for production",
+    "NEXTAUTH_URL": "The full URL of your application"
+  }
+}
